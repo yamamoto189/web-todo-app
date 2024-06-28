@@ -33,7 +33,7 @@
                                 {{ \Carbon\Carbon::parse($todo->created_at)->timezone('Asia/Tokyo')->format('Y/m/d H:i:s') }}
                             </small>
                         </div>
-                        <div class="card-body">
+                        <div class="card-body bg-white">
                             {{ $todo->title }}
                         </div>
                         <div class="card-footer">
